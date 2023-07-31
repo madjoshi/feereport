@@ -11,19 +11,22 @@ public class AccountantDao {
 	public static Connection getCon(){
 		Connection con=null;
 		try{
-			Class.forName("com.mysql.cj.jdbc.Driver");
+			Class.forName("com.mysql.jdbc.Driver");
 			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/feereport","","");
 		}catch(Exception e){System.out.println(e);}
 		return con;
+
 	}
 	public static boolean validate(String name,String password){
 		boolean status=false;
 		try{
 			Connection con=getCon();
-			PreparedStatement ps=con.prepareStatement("select * from feereport_accountant where name=? and password=?");
-			ps.setString(1,name);
-			ps.setString(2,password);
-			ResultSet rs=ps.executeQuery();
+			ResultSet rs;
+			try (PreparedStatement ps = con.prepareStatement("select * from feereport_accountant where name=? and password=?")) {
+				ps.setString(1, name);
+				ps.setString(2, password);
+				rs = ps.executeQuery();
+			}
 			status=rs.next();
 			con.close();
 		}catch(Exception e){System.out.println(e);}
