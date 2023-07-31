@@ -17,15 +17,6 @@
     <orderEntry type="jdk" jdkName="19" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="mysql-connector.jar">
-        <CLASSES>
-          <root url="file://E:/software/JARs/mysql-connector.jar" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="jgoodies-common-1.8.0.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/jgoodies-common-1.8.0.jar!/" />
@@ -34,6 +25,15 @@
         <SOURCES>
           <root url="jar://$MODULE_DIR$/jgoodies-common-1.8.0-sources.jar!/" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="mysql-connector.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/mysql-connector-java.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
