@@ -58,3 +58,17 @@ Now, click on edit button.
 ![image](https://github.com/madjoshi/feereport/assets/17756690/a081edff-23ac-47d8-9301-69edbeb388d6)
 
 
+Enter rollno and click on load record.
+
+![image](https://github.com/madjoshi/feereport/assets/17756690/2594bb12-54ab-4d09-8a0e-36ef51821f38)
+
+
+Update information and click on Update Student.
+
+![image](https://github.com/madjoshi/feereport/assets/17756690/6bd7d44d-05b2-46ce-98c1-9d6ed0c41289)
+
+Click on ok button. Now View due fee.
+
+![image](https://github.com/madjoshi/feereport/assets/17756690/40caf8e5-8a62-4d27-bff9-951d3749b16c)
+
+Now logout.
