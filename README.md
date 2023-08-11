@@ -1,4 +1,4 @@
-This repository is created for feeReport. 
+This repository is created for feeReport application. 
 
 Run FeeReport : 
 
